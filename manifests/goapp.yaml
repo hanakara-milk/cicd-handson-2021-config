@@ -4,6 +4,7 @@ metadata:
   name: goapp-deployment
 spec:
   selector:
+    replicas: 3
     matchLabels:
       app: goapp
   template:
